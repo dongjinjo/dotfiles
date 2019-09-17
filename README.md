@@ -19,4 +19,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # install auto suggestions 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
+# mv .zshrc 
+mv ~/.zshrc ~/.zshrc.old
+mv dotfiles/.zshrc ~/.zshrc
 ```
